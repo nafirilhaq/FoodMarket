@@ -1,10 +1,11 @@
 import React from 'react';
-import {Splash} from './pages';
+import {SignIn, Splash} from './pages';
 
 const App = () => {
   return (
     <>
-      <Splash />
+      {/* <Splash /> */}
+      <SignIn />
     </>
   );
 };
